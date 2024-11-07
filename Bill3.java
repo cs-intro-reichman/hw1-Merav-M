@@ -7,7 +7,7 @@ public class Bill3 {
         int nTotalBill = Integer.parseInt(args[3]);
         double dValueToPay = (Math.ceil((double)(nTotalBill)/3.0));
 
-        System.out.println("Dear " + sName1 + ", " + sName2 + " and " + sName3 +
+        System.out.println("Dear " + sName3 + ", " + sName2 + " and " + sName1 +
         ": pay " + dValueToPay + " Shekels each.");
 	}
 }
